@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp"
+    android:elevation="9dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        >
+
+
+    <TextView
+        android:id="@+id/todosUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hellow"
+        android:textSize="18sp"
+        android:fontFamily="@font/font3"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        /> <TextView
+        android:id="@+id/todoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hellow"
+        android:textSize="18sp"
+        android:fontFamily="@font/font3"
+    android:layout_below="@+id/todosUserId"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        />
+    <TextView
+        android:id="@+id/todoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hellow"
+        android:textSize="18sp"
+        android:fontFamily="@font/font3"
+    android:layout_below="@+id/todoId"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        /><TextView
+        android:id="@+id/todoComplite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hellow"
+        android:textSize="18sp"
+        android:fontFamily="@font/font3"
+    android:layout_below="@+id/todoTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

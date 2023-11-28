@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/post"-->
+<!--        android:title="Post"-->
+<!--        android:icon="@drawable/baseline_post_add_24"-->
+<!--        />-->
+    <item
+        android:id="@+id/comment"
+        android:title="Comments"
+        android:icon="@drawable/baseline_comment_bank_24"
+        />
+    <item
+        android:id="@+id/albums"
+        android:title="Albums"
+        android:icon="@drawable/baseline_photo_album_24"
+        />
+   <item
+       android:id="@+id/photos"
+       android:title="Photos"
+       android:icon="@drawable/baseline_photo_24"
+       />
+    <item
+        android:id="@+id/todos"
+        android:title="Todos"
+        android:icon="@drawable/baseline_bookmark_24"
+        />
+    <item
+        android:id="@+id/users"
+        android:title="Users"
+        android:icon="@drawable/baseline_supervised_user_circle_24"
+        />
+
+
+</menu>
